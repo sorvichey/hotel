@@ -254,7 +254,7 @@
 	  padding-bottom: 2px;
   }
   .bg-dark {
-	  background-color: #fff!important;
+	  background-color: #ffffff7d!important;
 	  border-bottom: 1px solid #eee;
   }
 .footer {
@@ -263,6 +263,7 @@
 .title-page {
 	background: #0c70dc;
 	padding: 10px;
+	margin-top: 65px;
 }
   .logo-footer {
 	  margin-top: -29px;

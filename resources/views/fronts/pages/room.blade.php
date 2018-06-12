@@ -33,12 +33,12 @@
                         <div class="price">
                             USD {{$r->price}}
                         </div>
-                        <div class="card-body">
-                    <p class="card-title">
-                        <a href="{{url('room/detail/'.$r->id)}}" class="a"><b class="text-gray name">{{$r->name}}</b></a>
-                    </p>
-                    <p class="text-gray">{{$r->short_description}}</p>
-                    <a  class="btn btn-sm btn-primary flat" href="{{url('room/detail/'.$r->id)}}">BOOK NOW</a>
+                    <div class="card-body">
+                        <h4 class="text-center">
+                            <a href="{{url('room/detail/'.$r->id)}}" class="a"><b class="text-primary">{{$r->name}}</b></a>
+                        </h4>
+                        <p class="text-justify" class="text-gray">{{$r->short_description}}</p>
+                        <a  class="btn btn-sm btn-primary flat" href="{{url('room/detail/'.$r->id)}}">BOOK NOW</a>
                     </div>
                 </div>
             </div>

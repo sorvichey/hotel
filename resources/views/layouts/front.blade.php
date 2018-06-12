@@ -18,7 +18,7 @@
     <body>
 
     <div class="container-fluit header-contact">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
             <div class="container">
                 <a class="navbar-brand navbar-brand-c col-md-3 col-3" href="{{url('/')}}"><img src="{{asset('front/img/logo.png')}}" width="100"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
